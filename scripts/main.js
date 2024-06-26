@@ -3,7 +3,9 @@ import { CityList } from "./CityList.js"
 import { Assignments } from "./Assignments.js"
 import { RegisteredPets } from "./RegisteredPets.js"
 
+
 const mainContainer = document.querySelector("#container")
+
 
 const applicationHTML = `
 <h1>DeShawns Dog Walking</h1>
@@ -18,6 +20,7 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__cities">
         <h2>Pets</h2>
+        ${RegisteredPets()}
     </section>
 </article>
 
